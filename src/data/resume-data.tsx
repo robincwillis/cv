@@ -35,7 +35,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://robincwillis.com",
   contact: {
     email: "robincwillis@gmail.com",
-    //tel: "+48530213401",
+    tel: undefined,
     social: [
       {
         name: "GitHub",
@@ -77,8 +77,8 @@ export const RESUME_DATA = {
       start: "2017",
       end: "2022",
       description:
-       // `Leading the charge in revolutionizing caregiving through innovative technology. My role involves crafting a forward-thinking product vision, guiding the roadmap, and orchestrating all facets of product design and development. Key achievements include spearheading transformative features, cultivating a culture of innovation, and building a cohesive, efficient product team. I prioritize a user-centric approach, resulting in increased engagement, satisfaction, and retention, contributing to Tender's mission of creating a seamless caregiving platform.`
-      `Orchestrated caregiving innovation through a forward-thinking product vision. Led transformative features and built an efficient product team.`
+      `Leading the charge in revolutionizing caregiving through innovative technology. My role involves crafting a forward-thinking product vision, guiding the roadmap, and orchestrating all facets of product design and development. Key achievements include spearheading transformative features, cultivating a culture of innovation, and building a cohesive, efficient product team. I prioritize a user-centric approach, resulting in increased engagement, satisfaction, and retention, contributing to Tender's mission of creating a seamless caregiving platform.`
+      //`Orchestrated caregiving innovation through a forward-thinking product vision. Led transformative features and built an efficient product team.`
     },
     {
       company: "Gordils & Willis",
@@ -88,12 +88,12 @@ export const RESUME_DATA = {
       start: "2017",
       end: "2022",
       description:
-        // `Led company-wide strategic vision, management, and day-to-day operations to ensure high-quality work delivery. Took a hands-on approach in both design and engineering, contributing to client projects and staying current with the latest industry techniques. Conducted regular design and engineering reviews for quality assurance, while managing and mentoring team members. Cultivated strong client relationships, understanding their needs to deliver exceptional service and results.`
-        `Directed company vision, ensuring high-quality work. Maintained hands-on design and engineering oversight, fostering client relationships for exceptional service and results.`
+        `Led company-wide strategic vision, management, and day-to-day operations to ensure high-quality work delivery. Took a hands-on approach in both design and engineering, contributing to client projects and staying current with the latest industry techniques. Conducted regular design and engineering reviews for quality assurance, while managing and mentoring team members. Cultivated strong client relationships, understanding their needs to deliver exceptional service and results.`
+        //`Directed company vision, ensuring high-quality work. Maintained hands-on design and engineering oversight, fostering client relationships for exceptional service and results.`
     },
     {
       company: "CompStak",
-      link: "https://bsgroup.eu/",
+      link: "https://compstak.com/",
       badges: ['design', 'engineering', 'management'],
       title: "Product Designer / Software Engineer",
       start: "2014",
@@ -103,26 +103,15 @@ export const RESUME_DATA = {
     },
     {
       company: "Sunglass",
-      //link: "https://clevertech.biz",
+      link: undefined,
       badges: ['design', 'engineering', 'management'],
       title: "Software Engineer",
       start: "2012",
       end: "2013",
       description:
-       // `Designed and developed multiple 3D design application plug-ins, seamlessly interacting with a web API through various languages and interfaces. Additionally, I created the companion iOS App, enabling users to download, navigate, and add annotations, photos, and comments onto 3D models. Managed external development through contractors and effectively coordinated efforts with the internal development team for seamless integration.`
-        `Designed and developed 3D design application plug-ins, managing external contractors. Created a companion iOS App.`
-    },
-    // {
-    //   company: "KMDW",
-    //   link: "https://www.kmdw.com/",
-    //   badges: ['design'],
-    //   title: "Architectural Designer",
-    //   start: "2011",
-    //   end: "2012",
-    //   description: 
-    //     //`Specialized in the design and application of a retail prototype and corresponding branding strategy. My role involved 3D modeling, rendering, and employing computationally driven organization techniques to enhance spatial design. Additionally, I played a crucial role in the visual communication of the brand. Notably, I led a project that successfully revamped a major shoe retail chain in Japan, demonstrating a comprehensive approach to architectural design and strategic brand enhancement.`
-    //     `Led a successful project revamping a major retail chain through prototype and branding strategy, utilizing 3D modeling and rendering and computationally driven organization techniques for spatial design. `  
-    // },
+       `Designed and developed multiple 3D design application plug-ins, seamlessly interacting with a web API through various languages and interfaces. Additionally, I created the companion iOS App, enabling users to download, navigate, and add annotations, photos, and comments onto 3D models. Managed external development through contractors and effectively coordinated efforts with the internal development team for seamless integration.`
+       // `Designed and developed 3D design application plug-ins, managing external contractors. Created a companion iOS App.`
+    }
   ],
   skills: [
     "JavaScript/TypeScript",
@@ -135,11 +124,11 @@ export const RESUME_DATA = {
     "CSS/SCSS/Tailwind",
     "WebGL/Three.js",
     "Figma/Adobe",
-    // "User Interface Design",
-    // "Data Visualization",
-    // "3D Modeling",
-    // "User Experience Research",
-    // "Project Management/Agile"
+    "User Interface Design",
+    "Data Visualization",
+    "3D Modeling",
+    "User Experience Research",
+    "Project Management/Agile"
   ],
   projects: [
     // {
@@ -154,9 +143,9 @@ export const RESUME_DATA = {
     // },
     // {
     //   title: "Sailing Collective",
-    //   techStack: ["Web App", "Next.js", "MDX"],
+    //   techStack: ["Web App", "Next.js"],
     //   description:
-    //     "My personal website and blog. Built with Next.js and Notion API",
+    //     "",
     //   logo: JarockiMeLogo,
     //   link: {
     //     label: "github.com",
@@ -193,7 +182,5 @@ export const RESUME_DATA = {
     //   techStack: ["Web App", "Next.js", "MDX"],
     //   description: "",
     // },
-    
-    
   ],
 } as const;
