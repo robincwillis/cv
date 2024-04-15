@@ -137,8 +137,8 @@ export const RESUME_DATA = {
     //   description: "",
     //   logo: MonitoLogo,
     //   link: {
-    //     label: "monito.dev",
-    //     href: "https://monito.dev/",
+    //     label: "",
+    //     href: "",
     //   },
     // },
     // {
@@ -149,7 +149,7 @@ export const RESUME_DATA = {
     //   logo: JarockiMeLogo,
     //   link: {
     //     label: "github.com",
-    //     href: "https://jarocki.me/",
+    //     href: "",
     //   },
     // },
     // {

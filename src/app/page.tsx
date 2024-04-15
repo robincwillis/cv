@@ -166,6 +166,7 @@ export default function Page() {
             })}
           </div>
         </Section>
+        {/*
         {RESUME_DATA.projects && RESUME_DATA.projects.length > 0 ? (
           <Section className="print-force-new-page scroll-mb-16">
             <h2 className="text-xl font-bold">Projects</h2>
@@ -184,6 +185,7 @@ export default function Page() {
             </div>
           </Section>
         ) : null}
+        */}
 
       </section>
 
