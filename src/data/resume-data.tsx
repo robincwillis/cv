@@ -74,8 +74,8 @@ export const RESUME_DATA = {
       link: "https://tenderco.co",
       badges: ["founder", "design", "engineering", "leadership"],
       title: "Head of Product Design",
-      start: "2017",
-      end: "2022",
+      start: "2022",
+      end: "2024",
       description:
       `Leading the charge in revolutionizing caregiving through innovative technology. My role involves crafting a forward-thinking product vision, guiding the roadmap, and orchestrating all facets of product design and development. Key achievements include spearheading transformative features, cultivating a culture of innovation, and building a cohesive, efficient product team. I prioritize a user-centric approach, resulting in increased engagement, satisfaction, and retention, contributing to Tender's mission of creating a seamless caregiving platform.`
       //`Orchestrated caregiving innovation through a forward-thinking product vision. Led transformative features and built an efficient product team.`
